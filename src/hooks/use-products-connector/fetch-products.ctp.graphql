@@ -1,0 +1,18 @@
+query FetchProducts {
+  products(limit: 20) {
+    total
+    results {
+      id
+      key
+      masterData {
+        current {
+          name(locale: "en-US")
+          slug(locale: "en-US")
+          masterVariant {
+            sku
+          }
+        }
+      }
+    }
+  }
+}

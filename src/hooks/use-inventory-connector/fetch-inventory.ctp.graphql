@@ -1,0 +1,15 @@
+query FetchInventory($limit: Int!, $offset: Int!) {
+  inventoryEntries(limit: $limit, offset: $offset) {
+    total
+    results {
+      id
+      sku
+      quantityOnStock
+      availableQuantity
+      supplyChannel {
+        id
+        key
+      }
+    }
+  }
+}

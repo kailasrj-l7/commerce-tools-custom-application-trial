@@ -1,0 +1,1 @@
+export { useInventoryFetcher } from './use-inventory-connector';
