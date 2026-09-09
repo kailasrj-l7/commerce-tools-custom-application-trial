@@ -12,7 +12,7 @@ const config = {
       initialProjectKey: 'kailas-second-project',
     },
     production: {
-      applicationId: 'TODO',
+      applicationId: 'cmttzuly9000e01yheu1av0tj',
       url: 'https://commerce-tools-custom-application-t.vercel.app',
     },
   },
